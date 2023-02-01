@@ -1,38 +1,72 @@
+#body{
+  background-color:rgb(108, 117, 125);
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+#Decision{
+  height: 171px;
 }
 
-.App-link {
-  color: #61dafb;
+nav{
+  background-color: #9AA6E7;
+}
+#sidenavAccordion{
+  background-color: #A7AFD6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h6{
+ color: #1E1E1E;
+}
+
+.card{
+  background-color: #f377772a;
+}
+
+#close-btn{
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+#card{
+  /* border: 1px solid #fff; */
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 2px 6px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn{
+  justify-content: space-between;
+border: 1px solid #A5EC9F;
+/* color: #A5EC9F; */
+background-color: #A5EC9F;
+}
+.borde{
+  border-left: 10px solid #E5D3D3;
+  border-radius: 5px;
+  margin-right: 30px;
+  height: 110px;
+}
+.bettwin{
+  display: flex;
+  justify-content: space-between;
+}
+#section{
+  width: 900px;
+}
+.logout{
+  text-decoration: none;
+  color: #1E1E1E;
+  font-size: 17px;
+}
+.logout:hover{
+  color: #1E1E1E;
+}
+.logo{
+  margin-left: 25px;
+  width: 110px;
+  height: 50px;
 }

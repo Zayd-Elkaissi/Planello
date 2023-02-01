@@ -60,7 +60,7 @@ function Task() {
                         <section class="py-5">
                             <div class="container px-4 px-lg-5 mt-5">
                                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-4 row-cols-xl-5 justify-content-center p-4">
-                                    <div id='card ' className="card-body mx-5">
+                                    <div id='card' className="card-body mx-5">
                                         <div class="col-0 mb-0">
                                             <div class="card h-100">
                                                 <div class="card-body">
